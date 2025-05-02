@@ -1,44 +1,72 @@
 # 🍽️ Lambda Forge — Amazon x CodePath Next Design Challenge 2025
 
-Welcome to **Lambda Forge's** official project repository for the **Amazon x CodePath Next Design Challenge**. Our team is excited to take on this year's challenge:  
-**"From Pixel to Plate: Innovating Food Accessibility."**
+Welcome to **Lambda Forge’s** official project for the **Amazon x CodePath Design Challenge** (Summer 2025).  
+This year’s theme is:
+
+> **“From Pixel to Plate: Innovating Food Accessibility”**
 
 ---
 
-## 🧠 Challenge Prompt
-Reimagine food access by addressing food security or strengthening cultural connection through food.  
-We're designing a solution that makes **healthy food more available, affordable, and convenient** using the power of **user-centered design** and **technology**.
+## 🧠 Challenge Overview
+The goal of this design challenge is to tackle issues related to **food access, food security**, and **cultural connection through food** using **technology** and **human-centered design**.
+
+Teams are encouraged to identify underserved communities, research their pain points, and develop thoughtful, scalable solutions that make nutritious food more accessible, affordable, or culturally inclusive.
 
 ---
 
-## 🎯 Our Mission
-To create an inclusive digital experience that bridges gaps in food access for underserved communities through thoughtful, accessible design and impactful technology.
+## 🎯 Problem Statement
+
+Millions of college students in urban and suburban areas experience **food insecurity** due to:
+- Lack of time or transportation to get groceries
+- Limited access to healthy, affordable food near campus
+- Cultural barriers when accessing traditional food pantries
 
 ---
 
-## 👥 Team Lambda Forge
-- [Your Name]
-- [Teammate 2]
-- [Teammate 3]
-- [Teammate 4]
-- [Teammate 5]
+## 💡 Our Solution
+
+We're building **MealLink**, a mobile-first web platform that:
+- Connects students with **free/discounted prepared meals** from local restaurants, dining halls, and campus fridges  
+- Features **pickup/delivery scheduling** that integrates with student availability  
+- Uses **AI-based personalization** to recommend meals that match dietary and cultural preferences  
+- Builds community by allowing students to **donate, reserve, or share meals** within their network
 
 ---
 
-## 🧭 Project Focus
-- ✅ **Problem:** Barriers to food access for [insert your chosen user group, e.g., low-income college students, elderly residents, etc.]
-- ✅ **Solution:** A tech-powered app that [brief 1-line description of your idea]
-- ✅ **Approach:** Design-first thinking, validated by user research and supported by frontend and (optionally) backend implementation
+## 🧑‍💻 Team Lambda Forge
+
+| Name | Role |
+|------|------|
+| Philip Stavrev | Full-Stack / AI Integration |
+| Najae Potts | UX Designer / Research Lead |
+| Bailey Norwood | Frontend Developer / UI Styling |
+| David Salas | Backend Developer / DevOps |
 
 ---
 
-## 🔨 Tech Stack
-*To be finalized — tentatively:*
-- Frontend: React.js or HTML/CSS/JS
-- Design: Figma
-- Backend (optional): Node.js + Express (or Firebase/MongoDB)
-- Tools: GitHub Projects, Slack, Zoom, Canva
+## 🔨 Tech Stack (Proposed)
+
+| Layer | Tools |
+|-------|-------|
+| **Frontend** | React.js, Tailwind CSS, Figma for prototyping |
+| **Backend** | Node.js + Express.js, Firebase (Realtime DB) or MongoDB |
+| **AI/Logic** | Python (for recommendations), TensorFlow Lite / API integration |
+| **Deployment** | Vercel or Render for frontend, Firebase Functions or Heroku for backend |
+| **Design Tools** | Figma, Draw.io, Canva |
 
 ---
 
-## 📂 Repository Structure (WIP)
+## 🧭 Project Roadmap
+
+| Phase | Tasks |
+|-------|-------|
+| ✅ Week 1 | Kickoff, user research, problem definition |
+| 🔄 Week 2 | Wireframes, mockups, finalize UX + tech plan |
+| 🔄 Week 3 | Implement frontend + backend prototypes |
+| 🔄 Week 4 | Testing, polish, final presentation build |
+| 📤 June 1 | Submission (slides + summary + optional demo) |
+
+---
+
+## 📂 Repository Structure
+
