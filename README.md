@@ -37,9 +37,9 @@ We're building **MealLink**, a mobile-first web platform that:
 
 | Name | Role |
 |------|------|
-| Philip Stavrev | TBD |
+| Philip Stavrev | |
 | Najae Potts | TBD |
-| David Salas | TBD |
+| David Salas | FrontEnd UI & UX Developer |
 
 ---
 
