@@ -39,7 +39,6 @@ We're building **MealLink**, a mobile-first web platform that:
 |------|------|
 | Philip Stavrev | TBD |
 | Najae Potts | TBD |
-| Bailey Norwood | TBD |
 | David Salas | TBD |
 
 ---
@@ -61,7 +60,7 @@ We're building **MealLink**, a mobile-first web platform that:
 | Phase | Tasks |
 |-------|-------|
 | ✅ Week 1 | Kickoff, user research, problem definition |
-| 🔄 Week 2 | Wireframes, mockups, finalize UX + tech plan |
+| ✅ Week 2 | Wireframes, mockups, finalize UX + tech plan |
 | 🔄 Week 3 | Implement frontend + backend prototypes |
 | 🔄 Week 4 | Testing, polish, final presentation build |
 | 📤 June 1 | Submission (slides + summary + optional demo) |
