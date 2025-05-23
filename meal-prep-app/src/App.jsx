@@ -1,35 +1,32 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Routes, Route, Navigate } from 'react-router-dom';
+import HomeComponent from './components/HomeComponent';
+import NavComponent from './components/NavComponent';
+import SetupComponent from './components/SetupComponent';
+import AuthRedirector from './components/AuthRedirector';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = ({ userData, setUserData }) => {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="min-h-screen flex flex-col">
+      <div className="flex">
+        <NavComponent userData={userData} setUserData={setUserData} />
+        <main className="flex-grow p-4" style={{ backgroundColor: '#F5F5F5' }}>
+          {userData ? (
+            <AuthRedirector userData={userData}>
+              <Routes>
+                <Route path="/" element={<HomeComponent userData={userData} />} />
+                <Route path="/setup" element={<SetupComponent userData={userData} />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
+              </Routes>
+            </AuthRedirector>
+          ) : (
+            <Routes>
+              <Route path="*" element={<Navigate to="/login" replace />} />
+            </Routes>
+          )}
+        </main>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default App
+export default App;
